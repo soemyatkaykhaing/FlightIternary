@@ -1,0 +1,23 @@
+[
+    { "name": "Tokyo Narita International Airport", "placeId": "NRT" },
+    { "name": "Beijing Capital International Airport", "placeId": "PEK" },
+    { "name": "Seoul Incheon International Airport", "placeId": "ICN" },
+    { "name": "Bangkok Suvarnabhumi Airport", "placeId": "BKK" },
+    { "name": "Singapore Changi Airport", "placeId": "SIN" },
+    { "name": "Kuala Lumpur International Airport", "placeId": "KUL" },
+    { "name": "Jakarta Soekarno-Hatta International Airport", "placeId": "CGK" },
+    { "name": "Manila Ninoy Aquino International Airport", "placeId": "MNL" },
+    { "name": "New Delhi Indira Gandhi International Airport", "placeId": "DEL" },
+    { "name": "Riyadh King Khalid International Airport", "placeId": "RUH" },
+    { "name": "Cairo International Airport", "placeId": "CAI" },
+    { "name": "Istanbul Airport", "placeId": "IST" },
+    { "name": "Moscow Sheremetyevo International Airport", "placeId": "SVO" },
+    { "name": "London Heathrow Airport", "placeId": "LHR" },
+    { "name": "Paris Charles de Gaulle Airport", "placeId": "CDG" },
+    { "name": "Berlin Tegel Airport", "placeId": "TXL" },
+    { "name": "Madrid Barajas Adolfo Suárez Airport", "placeId": "MAD" },
+    { "name": "Rome Leonardo da Vinci–Fiumicino Airport", "placeId": "FCO" },
+    { "name": "Amsterdam Airport Schiphol", "placeId": "AMS" },
+    { "name": "Stockholm Arlanda Airport", "placeId": "ARN" }
+  ]
+  

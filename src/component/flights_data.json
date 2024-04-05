@@ -1,0 +1,2971 @@
+[
+    {
+      "id": "9772-2404110545--31915-1-14827-2404111110|14827-2404181410--31915-1-9772-2404182045",
+      "price": {
+        "raw": 141.26,
+        "formatted": "$142",
+        "pricingOptionId": "xPgtbK45mqK0"
+      },
+      "legs": [
+        {
+          "id": "9772-2404110545--31915-1-14827-2404111110",
+          "origin": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 325,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-11T05:45:00",
+          "arrival": "2024-04-11T11:10:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30823,
+                "name": "Malta Air"
+              }
+            ],
+            "operationType": "partially_operated"
+          },
+          "segments": [
+            {
+              "id": "9772-15434-2404110545-2404110645--31915",
+              "origin": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-11T05:45:00",
+              "arrival": "2024-04-11T06:45:00",
+              "durationInMinutes": 60,
+              "flightNumber": "1342",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "15434-14827-2404110850-2404111110--31915",
+              "origin": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T08:50:00",
+              "arrival": "2024-04-11T11:10:00",
+              "durationInMinutes": 140,
+              "flightNumber": "2158",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -30823,
+                "name": "Malta Air",
+                "alternateId": "",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "14827-2404181410--31915-1-9772-2404182045",
+          "origin": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 395,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-18T14:10:00",
+          "arrival": "2024-04-18T20:45:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30823,
+                "name": "Malta Air"
+              }
+            ],
+            "operationType": "partially_operated"
+          },
+          "segments": [
+            {
+              "id": "14827-15434-2404181410-2404181625--31915",
+              "origin": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T14:10:00",
+              "arrival": "2024-04-18T16:25:00",
+              "durationInMinutes": 135,
+              "flightNumber": "5402",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -30823,
+                "name": "Malta Air",
+                "alternateId": "",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "15434-9772-2404181950-2404182045--31915",
+              "origin": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T19:50:00",
+              "arrival": "2024-04-18T20:45:00",
+              "durationInMinutes": 55,
+              "flightNumber": "3071",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        }
+      ],
+      "isSelfTransfer": true,
+      "isProtectedSelfTransfer": false,
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "fareAttributes": {},
+      "isMashUp": true,
+      "hasFlexibleOptions": false,
+      "score": 0.999
+    },
+    {
+      "id": "9772-2404110545--31915-1-14827-2404111110|14827-2404181745--31915-1-9772-2404190035",
+      "price": {
+        "raw": 137.95,
+        "formatted": "$138",
+        "pricingOptionId": "J068RIrkPLcO"
+      },
+      "legs": [
+        {
+          "id": "9772-2404110545--31915-1-14827-2404111110",
+          "origin": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 325,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-11T05:45:00",
+          "arrival": "2024-04-11T11:10:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30823,
+                "name": "Malta Air"
+              }
+            ],
+            "operationType": "partially_operated"
+          },
+          "segments": [
+            {
+              "id": "9772-15434-2404110545-2404110645--31915",
+              "origin": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-11T05:45:00",
+              "arrival": "2024-04-11T06:45:00",
+              "durationInMinutes": 60,
+              "flightNumber": "1342",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "15434-14827-2404110850-2404111110--31915",
+              "origin": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T08:50:00",
+              "arrival": "2024-04-11T11:10:00",
+              "durationInMinutes": 140,
+              "flightNumber": "2158",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -30823,
+                "name": "Malta Air",
+                "alternateId": "",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "14827-2404181745--31915-1-9772-2404190035",
+          "origin": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 410,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-18T17:45:00",
+          "arrival": "2024-04-19T00:35:00",
+          "timeDeltaInDays": 1,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30823,
+                "name": "Malta Air"
+              }
+            ],
+            "operationType": "partially_operated"
+          },
+          "segments": [
+            {
+              "id": "14827-15434-2404181745-2404182000--31915",
+              "origin": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T17:45:00",
+              "arrival": "2024-04-18T20:00:00",
+              "durationInMinutes": 135,
+              "flightNumber": "7927",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -30823,
+                "name": "Malta Air",
+                "alternateId": "",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "15434-9772-2404182340-2404190035--31915",
+              "origin": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T23:40:00",
+              "arrival": "2024-04-19T00:35:00",
+              "durationInMinutes": 55,
+              "flightNumber": "6361",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        }
+      ],
+      "isSelfTransfer": true,
+      "isProtectedSelfTransfer": false,
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "fareAttributes": {},
+      "tags": [
+        "second_cheapest"
+      ],
+      "isMashUp": true,
+      "hasFlexibleOptions": false,
+      "score": 0.945172
+    },
+    {
+      "id": "9772-2404110545--31915-1-14827-2404111110|14827-2404181745--31915,-31685-1-9772-2404190005",
+      "price": {
+        "raw": 140.11,
+        "formatted": "$141",
+        "pricingOptionId": "tuQeoWkwWy4h"
+      },
+      "legs": [
+        {
+          "id": "9772-2404110545--31915-1-14827-2404111110",
+          "origin": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 325,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-11T05:45:00",
+          "arrival": "2024-04-11T11:10:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30823,
+                "name": "Malta Air"
+              }
+            ],
+            "operationType": "partially_operated"
+          },
+          "segments": [
+            {
+              "id": "9772-15434-2404110545-2404110645--31915",
+              "origin": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-11T05:45:00",
+              "arrival": "2024-04-11T06:45:00",
+              "durationInMinutes": 60,
+              "flightNumber": "1342",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "15434-14827-2404110850-2404111110--31915",
+              "origin": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T08:50:00",
+              "arrival": "2024-04-11T11:10:00",
+              "durationInMinutes": 140,
+              "flightNumber": "2158",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -30823,
+                "name": "Malta Air",
+                "alternateId": "",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "14827-2404181745--31915,-31685-1-9772-2404190005",
+          "origin": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 380,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-18T17:45:00",
+          "arrival": "2024-04-19T00:05:00",
+          "timeDeltaInDays": 1,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              },
+              {
+                "id": -31685,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                "name": "Vueling Airlines"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30823,
+                "name": "Malta Air"
+              },
+              {
+                "id": -31685,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                "name": "Vueling Airlines"
+              }
+            ],
+            "operationType": "partially_operated"
+          },
+          "segments": [
+            {
+              "id": "14827-15434-2404181745-2404182000--31915",
+              "origin": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T17:45:00",
+              "arrival": "2024-04-18T20:00:00",
+              "durationInMinutes": 135,
+              "flightNumber": "7927",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -30823,
+                "name": "Malta Air",
+                "alternateId": "",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "15434-9772-2404182305-2404190005--31685",
+              "origin": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T23:05:00",
+              "arrival": "2024-04-19T00:05:00",
+              "durationInMinutes": 60,
+              "flightNumber": "3921",
+              "marketingCarrier": {
+                "id": -31685,
+                "name": "Vueling Airlines",
+                "alternateId": "07",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -31685,
+                "name": "Vueling Airlines",
+                "alternateId": "07",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        }
+      ],
+      "isSelfTransfer": true,
+      "isProtectedSelfTransfer": false,
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "fareAttributes": {},
+      "tags": [
+        "third_cheapest"
+      ],
+      "isMashUp": true,
+      "hasFlexibleOptions": false,
+      "score": 0.696651
+    },
+    {
+      "id": "9772-2404110545--31915-1-14827-2404111110|14827-2404180600--31915-1-9772-2404181435",
+      "price": {
+        "raw": 124.45,
+        "formatted": "$125",
+        "pricingOptionId": "n90DuKvBFIhW"
+      },
+      "legs": [
+        {
+          "id": "9772-2404110545--31915-1-14827-2404111110",
+          "origin": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 325,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-11T05:45:00",
+          "arrival": "2024-04-11T11:10:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30823,
+                "name": "Malta Air"
+              }
+            ],
+            "operationType": "partially_operated"
+          },
+          "segments": [
+            {
+              "id": "9772-15434-2404110545-2404110645--31915",
+              "origin": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-11T05:45:00",
+              "arrival": "2024-04-11T06:45:00",
+              "durationInMinutes": 60,
+              "flightNumber": "1342",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "15434-14827-2404110850-2404111110--31915",
+              "origin": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T08:50:00",
+              "arrival": "2024-04-11T11:10:00",
+              "durationInMinutes": 140,
+              "flightNumber": "2158",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -30823,
+                "name": "Malta Air",
+                "alternateId": "",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "14827-2404180600--31915-1-9772-2404181435",
+          "origin": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 515,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-18T06:00:00",
+          "arrival": "2024-04-18T14:35:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30823,
+                "name": "Malta Air"
+              }
+            ],
+            "operationType": "partially_operated"
+          },
+          "segments": [
+            {
+              "id": "14827-15434-2404180600-2404180815--31915",
+              "origin": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T06:00:00",
+              "arrival": "2024-04-18T08:15:00",
+              "durationInMinutes": 135,
+              "flightNumber": "2159",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -30823,
+                "name": "Malta Air",
+                "alternateId": "",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "15434-9772-2404181340-2404181435--31915",
+              "origin": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T13:40:00",
+              "arrival": "2024-04-18T14:35:00",
+              "durationInMinutes": 55,
+              "flightNumber": "2494",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        }
+      ],
+      "isSelfTransfer": true,
+      "isProtectedSelfTransfer": false,
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "fareAttributes": {},
+      "tags": [
+        "cheapest"
+      ],
+      "isMashUp": true,
+      "hasFlexibleOptions": false,
+      "score": 0.649907
+    },
+    {
+      "id": "9772-2404110545--31915-1-14827-2404111110|14827-2404181745--31915,-31685-1-9772-2404182320",
+      "price": {
+        "raw": 161.76,
+        "formatted": "$162",
+        "pricingOptionId": "LclmUZ_ZhtGQ"
+      },
+      "legs": [
+        {
+          "id": "9772-2404110545--31915-1-14827-2404111110",
+          "origin": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 325,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-11T05:45:00",
+          "arrival": "2024-04-11T11:10:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30823,
+                "name": "Malta Air"
+              }
+            ],
+            "operationType": "partially_operated"
+          },
+          "segments": [
+            {
+              "id": "9772-15434-2404110545-2404110645--31915",
+              "origin": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-11T05:45:00",
+              "arrival": "2024-04-11T06:45:00",
+              "durationInMinutes": 60,
+              "flightNumber": "1342",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "15434-14827-2404110850-2404111110--31915",
+              "origin": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T08:50:00",
+              "arrival": "2024-04-11T11:10:00",
+              "durationInMinutes": 140,
+              "flightNumber": "2158",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -30823,
+                "name": "Malta Air",
+                "alternateId": "",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "14827-2404181745--31915,-31685-1-9772-2404182320",
+          "origin": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 335,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-18T17:45:00",
+          "arrival": "2024-04-18T23:20:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              },
+              {
+                "id": -31685,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                "name": "Vueling Airlines"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30823,
+                "name": "Malta Air"
+              },
+              {
+                "id": -31685,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                "name": "Vueling Airlines"
+              }
+            ],
+            "operationType": "partially_operated"
+          },
+          "segments": [
+            {
+              "id": "14827-15434-2404181745-2404182000--31915",
+              "origin": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T17:45:00",
+              "arrival": "2024-04-18T20:00:00",
+              "durationInMinutes": 135,
+              "flightNumber": "7927",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -30823,
+                "name": "Malta Air",
+                "alternateId": "",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "15434-9772-2404182220-2404182320--31685",
+              "origin": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T22:20:00",
+              "arrival": "2024-04-18T23:20:00",
+              "durationInMinutes": 60,
+              "flightNumber": "3919",
+              "marketingCarrier": {
+                "id": -31685,
+                "name": "Vueling Airlines",
+                "alternateId": "07",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -31685,
+                "name": "Vueling Airlines",
+                "alternateId": "07",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        }
+      ],
+      "isSelfTransfer": true,
+      "isProtectedSelfTransfer": false,
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "fareAttributes": {},
+      "isMashUp": true,
+      "hasFlexibleOptions": false,
+      "score": 0.558737
+    },
+    {
+      "id": "9772-2404111700--31915-1-14827-2404112255|14827-2404181410--31915-1-9772-2404182045",
+      "price": {
+        "raw": 168.31,
+        "formatted": "$169",
+        "pricingOptionId": "ZDdLQbgSDQVS"
+      },
+      "legs": [
+        {
+          "id": "9772-2404111700--31915-1-14827-2404112255",
+          "origin": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 355,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-11T17:00:00",
+          "arrival": "2024-04-11T22:55:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30543,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/4P.png",
+                "name": "Lauda Europe"
+              },
+              {
+                "id": -30823,
+                "name": "Malta Air"
+              }
+            ],
+            "operationType": "not_operated"
+          },
+          "segments": [
+            {
+              "id": "9772-15434-2404111700-2404111800--31915",
+              "origin": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-11T17:00:00",
+              "arrival": "2024-04-11T18:00:00",
+              "durationInMinutes": 60,
+              "flightNumber": "2889",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -30543,
+                "name": "Lauda Europe",
+                "alternateId": "4P",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "15434-14827-2404112035-2404112255--31915",
+              "origin": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T20:35:00",
+              "arrival": "2024-04-11T22:55:00",
+              "durationInMinutes": 140,
+              "flightNumber": "7928",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -30823,
+                "name": "Malta Air",
+                "alternateId": "",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "14827-2404181410--31915-1-9772-2404182045",
+          "origin": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 395,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-18T14:10:00",
+          "arrival": "2024-04-18T20:45:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30823,
+                "name": "Malta Air"
+              }
+            ],
+            "operationType": "partially_operated"
+          },
+          "segments": [
+            {
+              "id": "14827-15434-2404181410-2404181625--31915",
+              "origin": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T14:10:00",
+              "arrival": "2024-04-18T16:25:00",
+              "durationInMinutes": 135,
+              "flightNumber": "5402",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -30823,
+                "name": "Malta Air",
+                "alternateId": "",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "15434-9772-2404181950-2404182045--31915",
+              "origin": {
+                "flightPlaceId": "PMI",
+                "displayCode": "PMI",
+                "parent": {
+                  "flightPlaceId": "PALM",
+                  "displayCode": "PMI",
+                  "name": "Palma",
+                  "type": "City"
+                },
+                "name": "Palma - Majorca",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T19:50:00",
+              "arrival": "2024-04-18T20:45:00",
+              "durationInMinutes": 55,
+              "flightNumber": "3071",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        }
+      ],
+      "isSelfTransfer": true,
+      "isProtectedSelfTransfer": false,
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "fareAttributes": {},
+      "isMashUp": true,
+      "hasFlexibleOptions": false,
+      "score": 0.541842
+    },
+    {
+      "id": "9772-2404110650--32090-1-14827-2404111035|14827-2404181430--32090-1-9772-2404181810",
+      "price": {
+        "raw": 360.1,
+        "formatted": "$361",
+        "pricingOptionId": "34wyjWkQ4zgw"
+      },
+      "legs": [
+        {
+          "id": "9772-2404110650--32090-1-14827-2404111035",
+          "origin": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 225,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-11T06:50:00",
+          "arrival": "2024-04-11T10:35:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32090,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LH.png",
+                "name": "Lufthansa"
+              }
+            ],
+            "operating": [
+              {
+                "id": -32089,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CL.png",
+                "name": "Lufthansa CityLine"
+              }
+            ],
+            "operationType": "partially_operated"
+          },
+          "segments": [
+            {
+              "id": "9772-11616-2404110650-2404110900--32090",
+              "origin": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "FRA",
+                "displayCode": "FRA",
+                "parent": {
+                  "flightPlaceId": "FRAN",
+                  "displayCode": "FRA",
+                  "name": "Frankfurt",
+                  "type": "City"
+                },
+                "name": "Frankfurt am Main",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T06:50:00",
+              "arrival": "2024-04-11T09:00:00",
+              "durationInMinutes": 130,
+              "flightNumber": "1139",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "11616-14827-2404110955-2404111035--32090",
+              "origin": {
+                "flightPlaceId": "FRA",
+                "displayCode": "FRA",
+                "parent": {
+                  "flightPlaceId": "FRAN",
+                  "displayCode": "FRA",
+                  "name": "Frankfurt",
+                  "type": "City"
+                },
+                "name": "Frankfurt am Main",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T09:55:00",
+              "arrival": "2024-04-11T10:35:00",
+              "durationInMinutes": 40,
+              "flightNumber": "142",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32089,
+                "name": "Lufthansa CityLine",
+                "alternateId": "CL",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "14827-2404181430--32090-1-9772-2404181810",
+          "origin": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 220,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-18T14:30:00",
+          "arrival": "2024-04-18T18:10:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32090,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LH.png",
+                "name": "Lufthansa"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "14827-11616-2404181430-2404181520--32090",
+              "origin": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "FRA",
+                "displayCode": "FRA",
+                "parent": {
+                  "flightPlaceId": "FRAN",
+                  "displayCode": "FRA",
+                  "name": "Frankfurt",
+                  "type": "City"
+                },
+                "name": "Frankfurt am Main",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-18T14:30:00",
+              "arrival": "2024-04-18T15:20:00",
+              "durationInMinutes": 50,
+              "flightNumber": "149",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "11616-9772-2404181605-2404181810--32090",
+              "origin": {
+                "flightPlaceId": "FRA",
+                "displayCode": "FRA",
+                "parent": {
+                  "flightPlaceId": "FRAN",
+                  "displayCode": "FRA",
+                  "name": "Frankfurt",
+                  "type": "City"
+                },
+                "name": "Frankfurt am Main",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T16:05:00",
+              "arrival": "2024-04-18T18:10:00",
+              "durationInMinutes": 125,
+              "flightNumber": "1132",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        }
+      ],
+      "isSelfTransfer": false,
+      "isProtectedSelfTransfer": false,
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "fareAttributes": {},
+      "tags": [
+        "shortest"
+      ],
+      "isMashUp": false,
+      "hasFlexibleOptions": false,
+      "score": 0.345046
+    },
+    {
+      "id": "9772-2404111350--32090-1-14827-2404111740|14827-2404181430--32090-1-9772-2404181810",
+      "price": {
+        "raw": 360.1,
+        "formatted": "$361",
+        "pricingOptionId": "cpNK9_u-3vrb"
+      },
+      "legs": [
+        {
+          "id": "9772-2404111350--32090-1-14827-2404111740",
+          "origin": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 230,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-11T13:50:00",
+          "arrival": "2024-04-11T17:40:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32090,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LH.png",
+                "name": "Lufthansa"
+              }
+            ],
+            "operating": [
+              {
+                "id": -32430,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/WX.png",
+                "name": "CityJet"
+              }
+            ],
+            "operationType": "partially_operated"
+          },
+          "segments": [
+            {
+              "id": "9772-11616-2404111350-2404111600--32090",
+              "origin": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "FRA",
+                "displayCode": "FRA",
+                "parent": {
+                  "flightPlaceId": "FRAN",
+                  "displayCode": "FRA",
+                  "name": "Frankfurt",
+                  "type": "City"
+                },
+                "name": "Frankfurt am Main",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T13:50:00",
+              "arrival": "2024-04-11T16:00:00",
+              "durationInMinutes": 130,
+              "flightNumber": "1131",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "11616-14827-2404111700-2404111740--32090",
+              "origin": {
+                "flightPlaceId": "FRA",
+                "displayCode": "FRA",
+                "parent": {
+                  "flightPlaceId": "FRAN",
+                  "displayCode": "FRA",
+                  "name": "Frankfurt",
+                  "type": "City"
+                },
+                "name": "Frankfurt am Main",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T17:00:00",
+              "arrival": "2024-04-11T17:40:00",
+              "durationInMinutes": 40,
+              "flightNumber": "148",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32430,
+                "name": "CityJet",
+                "alternateId": "WX",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "14827-2404181430--32090-1-9772-2404181810",
+          "origin": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 220,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-18T14:30:00",
+          "arrival": "2024-04-18T18:10:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32090,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LH.png",
+                "name": "Lufthansa"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "14827-11616-2404181430-2404181520--32090",
+              "origin": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "FRA",
+                "displayCode": "FRA",
+                "parent": {
+                  "flightPlaceId": "FRAN",
+                  "displayCode": "FRA",
+                  "name": "Frankfurt",
+                  "type": "City"
+                },
+                "name": "Frankfurt am Main",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-18T14:30:00",
+              "arrival": "2024-04-18T15:20:00",
+              "durationInMinutes": 50,
+              "flightNumber": "149",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "11616-9772-2404181605-2404181810--32090",
+              "origin": {
+                "flightPlaceId": "FRA",
+                "displayCode": "FRA",
+                "parent": {
+                  "flightPlaceId": "FRAN",
+                  "displayCode": "FRA",
+                  "name": "Frankfurt",
+                  "type": "City"
+                },
+                "name": "Frankfurt am Main",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T16:05:00",
+              "arrival": "2024-04-18T18:10:00",
+              "durationInMinutes": 125,
+              "flightNumber": "1132",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        }
+      ],
+      "isSelfTransfer": false,
+      "isProtectedSelfTransfer": false,
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "fareAttributes": {},
+      "tags": [
+        "second_shortest"
+      ],
+      "isMashUp": false,
+      "hasFlexibleOptions": false,
+      "score": 0.341213
+    },
+    {
+      "id": "9772-2404111145--32090-1-14827-2404111715|14827-2404181600--32090-1-9772-2404182130",
+      "price": {
+        "raw": 245.78,
+        "formatted": "$246",
+        "pricingOptionId": "MQ7zaNAVKOmb"
+      },
+      "legs": [
+        {
+          "id": "9772-2404111145--32090-1-14827-2404111715",
+          "origin": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 330,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-11T11:45:00",
+          "arrival": "2024-04-11T17:15:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32090,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LH.png",
+                "name": "Lufthansa"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "9772-14385-2404111145-2404111345--32090",
+              "origin": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "MUC",
+                "displayCode": "MUC",
+                "parent": {
+                  "flightPlaceId": "MUNI",
+                  "displayCode": "MUC",
+                  "name": "Munich",
+                  "type": "City"
+                },
+                "name": "Munich",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T11:45:00",
+              "arrival": "2024-04-11T13:45:00",
+              "durationInMinutes": 120,
+              "flightNumber": "1811",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "14385-14827-2404111500-2404111715--32090",
+              "origin": {
+                "flightPlaceId": "MUC",
+                "displayCode": "MUC",
+                "parent": {
+                  "flightPlaceId": "MUNI",
+                  "displayCode": "MUC",
+                  "name": "Munich",
+                  "type": "City"
+                },
+                "name": "Munich",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T15:00:00",
+              "arrival": "2024-04-11T17:15:00",
+              "durationInMinutes": 135,
+              "flightNumber": "3806",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "14827-2404181600--32090-1-9772-2404182130",
+          "origin": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 330,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-18T16:00:00",
+          "arrival": "2024-04-18T21:30:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32090,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LH.png",
+                "name": "Lufthansa"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "14827-14385-2404181600-2404181815--32090",
+              "origin": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "MUC",
+                "displayCode": "MUC",
+                "parent": {
+                  "flightPlaceId": "MUNI",
+                  "displayCode": "MUC",
+                  "name": "Munich",
+                  "type": "City"
+                },
+                "name": "Munich",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-18T16:00:00",
+              "arrival": "2024-04-18T18:15:00",
+              "durationInMinutes": 135,
+              "flightNumber": "3807",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "14385-9772-2404181925-2404182130--32090",
+              "origin": {
+                "flightPlaceId": "MUC",
+                "displayCode": "MUC",
+                "parent": {
+                  "flightPlaceId": "MUNI",
+                  "displayCode": "MUC",
+                  "name": "Munich",
+                  "type": "City"
+                },
+                "name": "Munich",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T19:25:00",
+              "arrival": "2024-04-18T21:30:00",
+              "durationInMinutes": 125,
+              "flightNumber": "1818",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        }
+      ],
+      "isSelfTransfer": false,
+      "isProtectedSelfTransfer": false,
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "fareAttributes": {},
+      "isMashUp": false,
+      "hasFlexibleOptions": false,
+      "score": 0.340889
+    },
+    {
+      "id": "9772-2404111145--32090-1-14827-2404111715|14827-2404181430--32090-1-9772-2404181810",
+      "price": {
+        "raw": 299.87,
+        "formatted": "$300",
+        "pricingOptionId": "kORvD3brhJjR"
+      },
+      "legs": [
+        {
+          "id": "9772-2404111145--32090-1-14827-2404111715",
+          "origin": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 330,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-11T11:45:00",
+          "arrival": "2024-04-11T17:15:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32090,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LH.png",
+                "name": "Lufthansa"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "9772-14385-2404111145-2404111345--32090",
+              "origin": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "destination": {
+                "flightPlaceId": "MUC",
+                "displayCode": "MUC",
+                "parent": {
+                  "flightPlaceId": "MUNI",
+                  "displayCode": "MUC",
+                  "name": "Munich",
+                  "type": "City"
+                },
+                "name": "Munich",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T11:45:00",
+              "arrival": "2024-04-11T13:45:00",
+              "durationInMinutes": 120,
+              "flightNumber": "1811",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "14385-14827-2404111500-2404111715--32090",
+              "origin": {
+                "flightPlaceId": "MUC",
+                "displayCode": "MUC",
+                "parent": {
+                  "flightPlaceId": "MUNI",
+                  "displayCode": "MUC",
+                  "name": "Munich",
+                  "type": "City"
+                },
+                "name": "Munich",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-11T15:00:00",
+              "arrival": "2024-04-11T17:15:00",
+              "durationInMinutes": 135,
+              "flightNumber": "3806",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "14827-2404181430--32090-1-9772-2404181810",
+          "origin": {
+            "id": "NUE",
+            "name": "Nuremberg",
+            "displayCode": "NUE",
+            "city": "Nuremberg",
+            "country": "Germany",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "BCN",
+            "name": "Barcelona",
+            "displayCode": "BCN",
+            "city": "Barcelona",
+            "country": "Spain",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 220,
+          "stopCount": 1,
+          "isSmallestStops": false,
+          "departure": "2024-04-18T14:30:00",
+          "arrival": "2024-04-18T18:10:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32090,
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LH.png",
+                "name": "Lufthansa"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "14827-11616-2404181430-2404181520--32090",
+              "origin": {
+                "flightPlaceId": "NUE",
+                "displayCode": "NUE",
+                "parent": {
+                  "flightPlaceId": "NURE",
+                  "displayCode": "NUE",
+                  "name": "Nuremberg",
+                  "type": "City"
+                },
+                "name": "Nuremberg",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "FRA",
+                "displayCode": "FRA",
+                "parent": {
+                  "flightPlaceId": "FRAN",
+                  "displayCode": "FRA",
+                  "name": "Frankfurt",
+                  "type": "City"
+                },
+                "name": "Frankfurt am Main",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "departure": "2024-04-18T14:30:00",
+              "arrival": "2024-04-18T15:20:00",
+              "durationInMinutes": 50,
+              "flightNumber": "149",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            },
+            {
+              "id": "11616-9772-2404181605-2404181810--32090",
+              "origin": {
+                "flightPlaceId": "FRA",
+                "displayCode": "FRA",
+                "parent": {
+                  "flightPlaceId": "FRAN",
+                  "displayCode": "FRA",
+                  "name": "Frankfurt",
+                  "type": "City"
+                },
+                "name": "Frankfurt am Main",
+                "type": "Airport",
+                "country": "Germany"
+              },
+              "destination": {
+                "flightPlaceId": "BCN",
+                "displayCode": "BCN",
+                "parent": {
+                  "flightPlaceId": "BARC",
+                  "displayCode": "BCN",
+                  "name": "Barcelona",
+                  "type": "City"
+                },
+                "name": "Barcelona",
+                "type": "Airport",
+                "country": "Spain"
+              },
+              "departure": "2024-04-18T16:05:00",
+              "arrival": "2024-04-18T18:10:00",
+              "durationInMinutes": 125,
+              "flightNumber": "1132",
+              "marketingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              },
+              "operatingCarrier": {
+                "id": -32090,
+                "name": "Lufthansa",
+                "alternateId": "LH",
+                "allianceId": 0,
+                "displayCode": ""
+              }
+            }
+          ]
+        }
+      ],
+      "isSelfTransfer": false,
+      "isProtectedSelfTransfer": false,
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "fareAttributes": {},
+      "tags": [
+        "third_shortest"
+      ],
+      "isMashUp": false,
+      "hasFlexibleOptions": false,
+      "score": 0.33528
+    }
+  ]
