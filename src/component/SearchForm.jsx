@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect} from 'react';
 import './SearchForm.css'; // Import custom CSS for styling
 import CityAutosuggest from './CityAutosuggest'; // Import the CityAutosuggest component
-
+import { Row,Col } from 'react-bootstrap';
 const SearchForm = ({ onSearch }) => {
   const [departureId, setDepartureId] = useState('');
   const [departureName, setDepartureName] = useState('');
@@ -10,7 +10,19 @@ const SearchForm = ({ onSearch }) => {
   const [date, setDate] = useState('');
   const [returnDate, setReturnDate] = useState('');
   const [tripType, setTripType] = useState('round');
+  const images = ['../resource/1.jpg', '../resource/2.jpg', '../resource/3.jpg', '../resource/4.jpg']; // Replace with your image URLs
+  const [currentIndex, setCurrentIndex] = useState(0);
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 5000);
 
+    return () => clearInterval(intervalId);
+  }, [images.length]);
+
+  useEffect(() => {
+    document.body.style.backgroundImage = `url('${images[currentIndex]}')`;
+  }, [currentIndex, images]);
   const handleSubmit = (e) => {
     e.preventDefault();
     onSearch({ departure: departureId, destination: destinationId, date, returnDate });
@@ -29,9 +41,11 @@ const SearchForm = ({ onSearch }) => {
   };
 
   return (
-    <div className='col-6 todo-app'>
-      <form className="mt-4 todo-form" onSubmit={handleSubmit}>
-        <div className="mb-3">
+    <Row>
+    <Col><img src='/resource/1.jpg' alt="Image" /></Col>
+    <Col className='col-6 d-flex justify-content-start'>
+      <form className="mt-4  justify-content-end text-center" onSubmit={handleSubmit}>
+        <div className="mb-3 mt-3">
           <CityAutosuggest
             value={departureName}
             placeholder="Departure City"
@@ -52,7 +66,7 @@ const SearchForm = ({ onSearch }) => {
         <div className="mb-3">
           <label className="col-9 mt-4">Trip Type:</label>
           <div className="col-9 mt-2">
-            <label>
+            <label className="mr-3 col-4">
               <input
                 type="radio"
                 value="one-way"
@@ -61,7 +75,8 @@ const SearchForm = ({ onSearch }) => {
               />
               One Way
             </label>
-            <label className="ml-3">
+           
+            <label className="ml-3 col-4">
               <input
                 type="radio"
                 value="round"
@@ -102,7 +117,11 @@ const SearchForm = ({ onSearch }) => {
           Search Flight
         </button>
       </form>
-    </div>
+    </Col>
+    <Col >
+      <h1>Title Here</h1>
+    </Col>
+    </Row>
   );
 };
 

@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
   },
   section: {
     marginBottom: 10,
+    fontSize: 14,
   },
   heading: {
     fontSize: 28,
@@ -52,14 +53,19 @@ const styles = StyleSheet.create({
   row: {
     display: 'flex',
     flexDirection: 'row',
-    borderTop: '1px solid #EEE',
     paddingTop: 8,
     paddingBottom: 8,
   },
   column: {
     flexDirection: 'column', // Equal width columns
     marginRight: 5, 
-    width: '25%'// Adjust spacing between columns
+    width: '25%',
+    fontSize: 14,// Adjust spacing between columns
+  },
+  columnInfo: {
+    flexDirection: 'column', // Equal width columns
+    marginRight: 5, 
+    width: '50%'// Adjust spacing between columns
   },
 });
 
@@ -73,19 +79,25 @@ const TicketPage = () => {
     <Document>
     <Page size="A4" style={styles.page}>
       <Text style={styles.heading}>Flight Itinerary</Text>
-      <View style={styles.price}>
+      <View style={styles.line}/>
+      <View style={styles.section}>
         <Text>Passenger Information</Text>
-        <View style={styles.section}>
-          <Text>NAME: {customerInfo.name}</Text>
-          <Text>EMAIL: {customerInfo.email}</Text>
-        </View>
-        <View style={styles.section}>
+        <View style={[styles.price, styles.row, styles.section]}>
+       
+            <View style={styles.columnInfo}>
+               <Text>NAME: {customerInfo.name}</Text>
+              <Text>EMAIL: {customerInfo.email}</Text>
+            </View>
+        <View style={styles.columnInfo}>
           <Text>BIRTHDATE: {customerInfo.dob}</Text>
           <Text>PASSPORT: {customerInfo.passport}</Text>
+          </View>
         </View>
       </View>
       {flight.legs.map((leg, legIndex) => (
+        
         <View key={legIndex} style={styles.section}>
+           <View style={styles.line}/>
           <Text style={styles.label}>{legIndex === 0 ? 'Departure' : 'Return'}</Text>
           <View style={[styles.row, styles.section]}>
             <View style={styles.column}>
@@ -147,13 +159,16 @@ const TicketPage = () => {
                   <Text>{segment.flightNumber}</Text>
                 </View>
               </View>
+             
             </View>
           ))}
           {/* End of Segment information */}
         </View>
+        
       ))}
       <View style={styles.line} />
-      <Text style={styles.price}>Price: {flight.price.formatted}</Text>
+      <Text style={[styles.price,styles.row]}>Price: {flight.price.formatted}</Text>
+
       <View style={styles.section}>
         <Text>Fare Policy</Text>
         <View style={styles.section}>
@@ -173,8 +188,8 @@ const TicketPage = () => {
 
   return (
     <div className="container mt-4">
-      <h1>Flight Detail</h1>
-      <Container className="bg-white justify-content-center text-align-center rounded" style={{ fontSize: '30px'}}>
+      <h1 style={{ fontSize: '38px'}}>Flight Detail</h1>
+      <Container className="bg-white justify-content-center text-align-center rounded" style={{ fontSize: '28px'}}>
         {flight.legs.map((leg, legIndex) => (
           <div key={legIndex}>
             <br></br>
@@ -206,7 +221,8 @@ const TicketPage = () => {
               </Col>
             </Row>
             {leg.segments.map((segment, index) => (
-              <Container key={index}>
+              <Container key={index} className='mt-3'>
+                 <hr style={{color:'grey'}} />
                 <Row>
                   <Col><span style={{ marginRight: '10px',fontSize: '25px'}}>{segment.origin.parent.displayCode}</span>
                     <span className='ml-2' style={{ marginRight: '10px' ,fontSize: '25px'}}>{segment.origin.parent.name}<br/>
@@ -231,19 +247,20 @@ const TicketPage = () => {
                     <span style={{ marginRight: '10px' ,fontSize: '25px'}}>Flight Number: {segment.flightNumber} </span>
                   </Col>
                 </Row>
+               
               </Container>
             ))}
-            <hr></hr>
+            <hr style={{color:'maroon'}} />
+
           </div>
         ))}
         <br/> 
-        <hr />
-        <Row className="justify-content-center" >
+        <Row>
           <Col style={{ fontSize: '30px', color: 'darkblue' }}>
             Price: {flight.price.formatted}
           </Col>
         </Row>
-        <hr/>
+        <hr style={{color:'maroon'}} />
         <Row>
           <Col>
             Self Transfer: {flight.isSelfTransfer ? (
@@ -284,20 +301,19 @@ const TicketPage = () => {
           </Col>
         </Row>
       </Container>
-      <hr></hr>
-      <div >
+      <Container  className="bg-white mt-2 mb-2 justify-content-center text-align-center rounded"> 
         <b style={{fontSize: '30px', color: 'darkblue'}}>Passenger Information</b>
         <br/>
         <Row className='mb-2 mt-2'>
           <Col>NAME: {customerInfo.name}</Col>
           <Col>EMAIL: {customerInfo.email}</Col>
         </Row>
-        <Row className='mb-2'>
+        <Row className='mb-2 p-4'>
           <Col>BIRTHDATE: {customerInfo.dob}</Col>
           <Col>PASSPORT: {customerInfo.passport}</Col>
         </Row>
-      </div>
-      <Container className='container mb-5 mt-5'>
+      </Container>
+      <Container className='container mb-5'>
         {/* Button to download ticket information as PDF */}
         <PDFDownloadLink document={TicketDocument} fileName="ticket.pdf" className='btn btn-primary'>
           {({ blob, url, loading, error }) =>

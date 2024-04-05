@@ -16,7 +16,7 @@ function App() {
   return (
     <Router> {/* Use BrowserRouter instead of Routes */}
       <Routes>
-        <Route path="/" element={<FlightTestPageJSon />} />
+        <Route path="/" element={<SearchPage />} />
         <Route path="/flight-info" element={<FlightsPage />} />
         <Route path="/flight-detail" element={<FlightDetail />} />
         <Route path="/ticket-page" element={<TicketPage/>}/>

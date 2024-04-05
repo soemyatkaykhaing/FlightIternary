@@ -95,7 +95,7 @@ const FlightDetailPage = () => {
               </Row>
               </Container>
             ))}
-          <hr></hr>
+            <hr/>
           </div>
         ))}
         <Row className="justify-content-center" >
