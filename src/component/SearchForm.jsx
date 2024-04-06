@@ -42,7 +42,7 @@ const SearchForm = ({ onSearch }) => {
 
   return (
     <Row>
-    <Col><img src='/resource/1.jpg' alt="Image" /></Col>
+    <Col><img src='1.jpg' alt="Image" /></Col>
     <Col className='col-6 d-flex justify-content-start'>
       <form className="mt-4  justify-content-end text-center" onSubmit={handleSubmit}>
         <div className="mb-3 mt-3">
