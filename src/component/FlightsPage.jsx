@@ -19,11 +19,12 @@ const FlightsPage = () => { // Get location using useLocation hook
   };
   return (
     <div className="container mt-4" style={{ fontSize: '20px'}}>
+        <Link to="/flight-info">Back</Link>
     <h1>Available Flights</h1>
     <ul className="list-group mt-3 justify-content-center text-align-center">
       {flights && flights.map((flight, flightIndex) => (
         <li key={flightIndex} className="list-group-item justify-content-center text-align-center mb-4 rounded">
-          <Container className="justify-content-center text-align-center rounded">
+          <Container className="justify-content-center text-align-center rounded boarding-pass">
             {flight.legs.map((leg, legIndex) => (
               <div key={legIndex}>
                 <Row>

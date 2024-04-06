@@ -9,12 +9,12 @@ const CityAutosuggest = ({ value, placeholder, onChange,onSelect }) => {
   // Define function to fetch suggestions based on user input
   const fetchSuggestions = async (inputValue) => {
     try {
-      const url = `https://skyscanner80.p.rapidapi.com/api/v1/flights/auto-complete?query=${inputValue}&market=US&locale=en-US`;
+      const url = `https://sky-scanner3.p.rapidapi.com/flights/auto-complete?query=${inputValue}&market=US&locale=en-US`;
       const options = {
         method: 'GET',
         headers: {
           'X-RapidAPI-Key': '91ed51a6e0msh7a31b1ca7cd5bb5p1adee1jsn05206a65005c',
-          'X-RapidAPI-Host': 'skyscanner80.p.rapidapi.com'
+          'X-RapidAPI-Host': 'sky-scanner3.p.rapidapi.com'
         }
       };
       const response = await fetch(url, options);
@@ -26,7 +26,7 @@ const CityAutosuggest = ({ value, placeholder, onChange,onSelect }) => {
         const cities = data.data.map(item => ({
           name: item.presentation.title,
           code: item.navigation.localizedName,
-          id: item.id
+          id: item.presentation.id
         }));
   
         setSuggestions(cities);

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate ,Link} from 'react-router-dom';
 import { FaCheck, FaDelete, FaLuggageCart, FaMoneyBill } from 'react-icons/fa';
 const FlightDetailPage = () => {
   const location = useLocation();
@@ -144,14 +144,14 @@ const FlightDetailPage = () => {
     </Row>
       </Container>
       <hr />
-        <Container className="justify-content-center">
+        <Container>
           
           <div className="text-white p-4">
             <h2>Customer Information</h2>
             <form onSubmit={handleSubmit}>
               
               <Row>
-              <Col className="form-group ">
+              <Col>
                 <label>Name:</label>
                 <input
                   type="text"

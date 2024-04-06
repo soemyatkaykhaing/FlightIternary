@@ -32,7 +32,8 @@ body {
 }
 
 .search-page{
-  color:#fff
+  color:#fff;
+  margin-top: 50px
 }
 
 h1 {
@@ -53,10 +54,11 @@ h1 {
 .todo-input {
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
-  border: 2px solid #5d0cff;
+  border: 1px solid #671212;
   outline: none;
   background: transparent;
   color: #0b0b0b;
+  opacity: 0.8;
 }
 
 label {
@@ -118,6 +120,31 @@ label {
   border-radius: 5px;
   width: 90%;
 }
+@keyframes dropFromTop {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes dropFromBottom {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(0); }
+}
+.title {
+  font-family: "American Typewriter"; /* Use a rounded font */
+  font-size: 80px; /* Set font size to 100px */
+  text-align: left; /* Align text to center */
+  color: rgba(255, 255, 255, 0.8); /* White with 70% opacity for a transparent effect */
+  animation: dropFromTop 1s ease-out forwards;
+}
+.title1 {
+  font-family: "sans-serif"; /* Use a rounded font */
+  font-size: 40px; /* Set font size to 100px */
+  text-align: left; /* Align text to center */
+  color: rgba(255, 255, 255, 0.8); /* White with 70% opacity for a transparent effect */
+  animation: dropFromBottom 1s ease-out forwards;
+}
+
+
 
 .todo-row:nth-child(4n + 1) {
   background: linear-gradient(
@@ -204,12 +231,10 @@ label {
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
 }
 form {
-  width: 80%;
-  max-width: 400px;
   padding: 20px;
-  background-color: white;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 h1 {
   font-size: 48px;
@@ -217,3 +242,17 @@ h1 {
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
+
+body{
+  text-align: center;
+}
+.ticket{
+  background-color: #f9fdff;
+  border-radius: 10px;
+  color: #616060;
+  font-family: Helvetica Neue;
+  font-weight: 300;
+  letter-spacing: 1px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+ 
